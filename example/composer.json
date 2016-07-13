@@ -1,5 +1,5 @@
 {
-  "name": "cgsmith/zf1-recaptcha-2/example",
+  "name": "wendrowycz/zf1-recaptcha-2/example",
   "description": "A short example to use ZF1 Recaptcha 2",
   "keywords": [
     "zf1",
@@ -10,7 +10,7 @@
   "require": {
     "php": ">=5.5.0",
     "zendframework/zendframework1": "~1.12",
-    "cgsmith/zf1-recaptcha-2": "~1.0.1"
+    "wendrowycz/zf1-recaptcha-2": "~1.0.3"
   },
   "license": "MIT",
   "authors": [

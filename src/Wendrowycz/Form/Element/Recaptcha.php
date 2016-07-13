@@ -1,11 +1,11 @@
 <?php
-namespace Cgsmith\Form\Element;
+namespace Wendrowycz\Form\Element;
 
 /**
  * Class Recaptcha
  * Renders a div for google recaptcha to allow for use of the Google Recaptcha API
  *
- * @package Cgsmith
+ * @package Wendrowycz
  * @license MIT
  * @author  Chris Smith
  */

@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Cgsmith\\": "src/Cgsmith"
+      "Wendrowycz\\": "src/Wendrowycz"
     }
   },
   "license": "MIT",

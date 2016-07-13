@@ -1,10 +1,10 @@
 <?php
-namespace Cgsmith\View\Helper;
+namespace Wendrowycz\View\Helper;
 
 /**
  * Class FormRecaptcha
  *
- * @package Cgsmith
+ * @package Wendrowycz
  * @license MIT
  * @author  Chris Smith
  */
