@@ -7,8 +7,8 @@ class Application_Form_Contact extends Zend_Form
 {
     public function init()
     {
-        $this->addPrefixPath('Cgsmith\\Form\\Element', APPLICATION_PATH . '/../vendor/cgsmith/zf1-recaptcha-2/src/Cgsmith/Form/Element', Zend_Form::ELEMENT);
-        $this->addElementPrefixPath('Cgsmith\\Validate\\', APPLICATION_PATH . '/../vendor/cgsmith/zf1-recaptcha-2/src/Cgsmith/Validate/', Zend_Form_Element::VALIDATE);
+        $this->addPrefixPath('Wendrowycz\\Form\\Element', APPLICATION_PATH . '/../vendor/wendrowycz/zf1-recaptcha-2/src/Wendrowycz/Form/Element', Zend_Form::ELEMENT);
+        $this->addElementPrefixPath('Wendrowycz\\Validate\\', APPLICATION_PATH . '/../vendor/wendrowycz/zf1-recaptcha-2/src/Wendrowycz/Validate/', Zend_Form_Element::VALIDATE);
 
         $this->setMethod('post');
 

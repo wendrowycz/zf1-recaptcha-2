@@ -1,11 +1,11 @@
 <?php
-namespace Cgsmith\Validate;
+namespace Wendrowycz\Validate;
 
 /**
  * Class Recaptcha
  * Handle validation against Google API
  *
- * @package Cgsmith
+ * @package Wendrowycz
  * @license MIT
  * @author Chris Smith
  * @link   https://github.com/google/recaptcha

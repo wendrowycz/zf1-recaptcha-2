@@ -10,7 +10,7 @@ Installation
 #### Composer Install
 
     "require": {
-        "cgsmith/zf1-recaptcha-2": "~1.0"
+        "wendrowycz/zf1-recaptcha-2": "~1.0"
     }
 
 
@@ -31,14 +31,14 @@ recaptcha.secretkey = "YOUR SECRET KEY GIVED BY GOOGLE"
 ```php
 <?php
 $this->view->headScript()->appendFile('//www.google.com/recaptcha/api.js'); 
-$this->view->addHelperPath(APPLICATION_PATH . '/../vendor/cgsmith/zf1-recaptcha-2/src/Cgsmith/View/Helper', 'Cgsmith\\View\\Helper\\');
+$this->view->addHelperPath(APPLICATION_PATH . 'Wendrowycz', 'Wendrowycz');
 ```
 
 * In the init() function of your Form
 
 ```php
- $this->addPrefixPath('Cgsmith\\Form\\Element', APPLICATION_PATH . '/../vendor/cgsmith/zf1-recaptcha-2/src/Cgsmith/Form/Element', Zend_Form::ELEMENT);
- $this->addElementPrefixPath('Cgsmith\\Validate\\', APPLICATION_PATH . '/../vendor/cgsmith/zf1-recaptcha-2/src/Cgsmith/Validate/', Zend_Form_Element::VALIDATE);
+ $this->addPrefixPath('Wendrowycz\\Form\\Element', APPLICATION_PATH . '/../vendor/wendrowycz/zf1-recaptcha-2/src/Wendrowycz/Form/Element', Zend_Form::ELEMENT);
+ $this->addElementPrefixPath('Wendrowycz\\Validate\\', APPLICATION_PATH . '/../vendor/wendrowycz/zf1-recaptcha-2/src/Wendrowycz/Validate/', Zend_Form_Element::VALIDATE);
 
 ```
 
@@ -76,7 +76,7 @@ Requirements
 Submitting bugs and feature requests
 ------------------------------------
 
-Bugs and feature request are tracked on [GitHub](https://github.com/cgsmith/zf1-recaptcha-2/issues)
+Bugs and feature request are tracked on [GitHub](https://github.com/wendrowycz/zf1-recaptcha-2/issues)
 
 Author
 ------
