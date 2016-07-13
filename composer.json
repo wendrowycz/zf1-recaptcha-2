@@ -1,6 +1,6 @@
 {
-  "name": "cgsmith/zf1-recaptcha-2",
-  "description": "A quick package to assist with using Google reCAPTCHA version 2 with ZF1",
+  "name": "wendrowycz/zf1-recaptcha-2",
+  "description": "A quick package to assist with using Google reCAPTCHA version 2 with ZF1 (php 5.3.27)",
   "keywords": [
     "zf1",
     "zend",
@@ -8,7 +8,7 @@
     "google"
   ],
   "require": {
-    "php": ">=5.5.0",
+    "php": ">=5.3.27",
     "zendframework/zendframework1": "~1.12"
   },
   "autoload": {
